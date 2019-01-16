@@ -1,0 +1,68 @@
+body {
+  font-family: 'Bad Script', cursive;
+  text-align: center;
+  background-color: #6f93c3;
+  text-shadow: 1px 1px black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 650px;
+}
+
+input {
+  margin: 10px;
+  size: 20px;
+}
+
+button {
+  margin: 30px;
+  cursor: grab;
+  padding: 5px 45px 5px 45px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  transition: .5s;
+}
+
+.title{
+  font-size: 80px;
+  margin: 0px;
+}
+
+.title:hover {
+  color:black;
+  cursor: pointer;
+  text-shadow: 1px 1px white;
+}
+
+h5, h4 {
+  color: #F08080;
+}
+
+.hinth3 {
+  margin: 0px;
+  color: #F08080;
+}
+
+.gameOverh1 {
+  color: #F08080;
+}
+
+img {
+  min-height: 300px;
+  width: 200px;
+  padding-left: 40px;
+}
+img:hover {
+  transition: .3s;
+  transform: scale(1.1, 1.1);
+}
+
+h1 {
+  margin: 0px;
+}
